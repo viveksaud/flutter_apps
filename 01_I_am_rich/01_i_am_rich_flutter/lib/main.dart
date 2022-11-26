@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-   runApp(
+  runApp(
      MaterialApp(
       debugShowCheckedModeBanner: false, // to hide debug mode banner
       home: Scaffold(
@@ -12,12 +12,10 @@ void main() {
         backgroundColor: Colors.deepPurple[400],
         body: const Center(
           child: Image(
-            image: NetworkImage('https://media.istockphoto.com/id/1382204548/photo/lord-shiva-hindu-god-stock-photo.jpg?b=1&s=170667a&w=0&k=20&c=o8IynHJ2VhwIhzQXBR9TJK3wBt-EchouwPNkVNcOh8Q='),
+            image: AssetImage('images/01_img.jpg'),
           ),
         ),
       ),
     ),
   );
 }
-
-
