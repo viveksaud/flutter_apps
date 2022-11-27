@@ -22,9 +22,20 @@ class MyApp extends StatelessWidget {
               Text(
                 'Vivek Saud',
                 style: TextStyle(
+                  fontFamily: 'Pacifico',
                   fontSize: 40,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
+                ),
+              ),
+              Text(
+                'DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'SourceSansPro',
+                  fontSize: 21,
+                  fontWeight: FontWeight.bold,
+                  color: Color.fromRGBO(178, 223, 219, 1),
+                  letterSpacing: 2.5,
                 ),
               ),
             ],

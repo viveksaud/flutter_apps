@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "01_i_am_rich_flutter",
+            "cwd": "01_I_am_rich\\01_i_am_rich_flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "01_i_am_rich_flutter (profile mode)",
+            "cwd": "01_I_am_rich\\01_i_am_rich_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "01_i_am_rich_flutter (release mode)",
+            "cwd": "01_I_am_rich\\01_i_am_rich_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "mi_card_flutter",
+            "cwd": "02_MiCard-A_Single_Screen_Personal_Business_Card\\mi_card_flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mi_card_flutter (profile mode)",
+            "cwd": "02_MiCard-A_Single_Screen_Personal_Business_Card\\mi_card_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mi_card_flutter (release mode)",
+            "cwd": "02_MiCard-A_Single_Screen_Personal_Business_Card\\mi_card_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
