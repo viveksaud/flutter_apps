@@ -13,34 +13,19 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            // mainAxisSize: MainAxisSize.min,
-            // verticalDirection: VerticalDirection.up,
-            // mainAxisAlignment: MainAxisAlignment.spaceAround,
-            // crossAxisAlignment: CrossAxisAlignment.end,
-            crossAxisAlignment: CrossAxisAlignment.stretch,// to make the children to the widht:double.infinity i.e. having width of screen
-            children: <Widget>[
-              Container(
-                color: Colors.white,
-                child: Text('container 1'),
-                height: 200,
-                width: 100,
+            children: const <Widget>[
+              CircleAvatar(
+                radius: 65,
+                // backgroundImage: NetworkImage('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg?auto=compress&cs=tinysrgb&w=600'),
+                backgroundImage: AssetImage("images/01_img.png"),
               ),
-              SizedBox(height: 10),//for creating space
-              Container(
-                color: Colors.red[300],
-                child: Text('container 2'),
-                height: 200,
-                width: 100,
-              ),
-              SizedBox(height: 10,),
-              Container(
-                color: Colors.blue[900],
-                child: Text('container 3'),
-                height: 200,
-                width: 100,
-              ),
-              Container( //empty container with width infinite for aligning children horizontally to end of screen
-                width: double.infinity,
+              Text(
+                'Vivek Saud',
+                style: TextStyle(
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
               ),
             ],
           ),
