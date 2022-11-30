@@ -4,6 +4,17 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Flutter",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart"
+        },
+        
+
+
+
+        
         
         {
             "name": "01_i_am_rich_flutter",
@@ -29,7 +40,8 @@
             "name": "mi_card_flutter",
             "cwd": "02_MiCard-A_Single_Screen_Personal_Business_Card\\mi_card_flutter",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            
         },
         {
             "name": "mi_card_flutter (profile mode)",

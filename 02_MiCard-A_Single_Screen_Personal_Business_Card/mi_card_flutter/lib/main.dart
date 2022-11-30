@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            children: const <Widget>[
+            children: <Widget>[
               CircleAvatar(
                 radius: 65,
                 // backgroundImage: NetworkImage('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg?auto=compress&cs=tinysrgb&w=600'),
@@ -38,6 +40,49 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 2.5,
                 ),
               ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 12, horizontal: 21),
+                padding: EdgeInsets.all(9),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.phone,
+                      color: Colors.teal
+                      ),
+                    SizedBox(width: 15),
+                    Text(
+                      '9848123456', 
+                      style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontSize: 21,
+                        fontFamily: 'SourceSansPro'),
+                      ),
+                  ],
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 12, horizontal: 21),
+                padding: EdgeInsets.all(9),
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.email,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(width: 15,),
+                    Text(
+                      'viveksaud@gmail.com',
+                      style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontFamily: 'SourceSansPro',
+                        fontSize: 19,
+                      ),)
+                  ]
+                ),
+              ),
+              
             ],
           ),
         ),
